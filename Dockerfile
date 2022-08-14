@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook:r-4.1.3
+FROM jupyter/datascience-notebook:hub-2.3.1
 # install the notebook package
 RUN pip install --no-cache --upgrade pip && \
     pip install --no-cache notebook jupyterlab && \
