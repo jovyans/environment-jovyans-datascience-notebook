@@ -1,7 +1,8 @@
 FROM jupyter/datascience-notebook:aarch64-ubuntu-22.04
 # install the notebook package
 RUN pip install --no-cache --upgrade pip && \
-    pip install --no-cache notebook jupyterlab
+    pip install --no-cache notebook jupyterlab && \
+    pip install --no-cache RISE nbgitpuller
 
 # create user with a home directory
 ARG NB_USER
