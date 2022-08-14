@@ -1,2 +1,1 @@
 jupyter serverextension enable --py nbgitpuller --sys-prefix
-rm -rf work
