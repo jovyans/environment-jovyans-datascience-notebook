@@ -1,5 +1,0 @@
-install.packages("rjson")
-install.packages("httr")
-install.packages("rvest")
-install.packages("readxl")
-install.packages("RSQLite")
