@@ -7,3 +7,6 @@ RUN R -e "install.packages('rjson', dependencies=TRUE, repos='http://cran.rstudi
 RUN R -e "install.packages('rvest', dependencies=TRUE, repos='http://cran.rstudio.com/')"
 RUN R -e "install.packages('readxl', dependencies=TRUE, repos='http://cran.rstudio.com/')"
 RUN R -e "install.packages('RSQLite', dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages('dplyr', dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages('data.table', dependencies=TRUE, repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages('xts', dependencies=TRUE, repos='http://cran.rstudio.com/')"
